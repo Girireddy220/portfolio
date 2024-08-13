@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="portfolio.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+</head>
+<body>
+    <header class="header">
+        <a href="#" class="logo">GIRI</a>
+
+        <nav class="navbar">
+            <a href="#" class="active">home</a>
+            <a href="#">about</a>
+            <a href="#">services</a>
+            <a href="website.html">portfolio</a>
+            <a href="#">contact</a>
+        </nav>
+    </header>
+    <section class="home">
+        <div class="home-content">
+            <h1>Hi, i'm Giri reddy</h1>
+            <h3>Frontend developer</h3>
+            <p> I, Giridhar Reddy, have successfully attained a strong foundation in Electrical Engineering, coupled with a passion for software engineering. With a keen interest in innovative technologies, I am driven to apply my technical skills and knowledge to solve real-world problems. My academic journey has instilled in me excellent problem-solving abilities, analytical thinking, and effective communication skills, enabling me to collaborate and lead projects with confidence. I am committed to continuous learning and professional growth, staying up-to-date with industry trends and advancements. With a clear vision for my career, I am poised to make a meaningful impact in the tech industry, leveraging my skills and enthusiasm to drive success and innovation.</p>
+            <div class="btn-box">
+                <a href="#">hire me</a>
+                <a href="#">let's talk</a>
+            </div>
+        </div>
+        <div class="home-sci">
+            <a href="#"><i class='bx bxl-facebook'></i></a>
+            <a href="#"><i class='bx bxl-instagram' ></i></a>
+            <a href="#"><i class='bx bxl-linkedin' ></i></a>
+        </div>
+        <span class="home-imghover"></span>
+    </section>
+    <script>
+        // Add JavaScript code here
+        // For example:
+        const navbar = document.querySelector('.navbar');
+        window.addEventListener('scroll', () => {
+            if (window.scrollY > 50) {
+                navbar.classList.add('active');
+            } else {
+                navbar.classList.remove('active');
+            }
+        });
+    </script>
+
+</body>
+</html>
